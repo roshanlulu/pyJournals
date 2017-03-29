@@ -41,21 +41,20 @@ animals = ['duck', 'rat', 'boar', 'slug', 'mammoth', 'gazelle']
 print(filter(lambda item: item.upper(), animals))
 '''
 
-#Part 13 of exercise
+# Part 13 of exercise
 
 # Load the dataset
-with open('./coffee-preferences.csv','r') as f:
+with open('./coffee-preferences.csv', 'r') as f:
     lines = f.readlines()
 
 # Iterate through the lines
 for line in lines:
     line = line.replace("\n", "")
     #print(line)
-    
+
 header = lines[0]
 data = lines[1::]
 
 print (header.split(','))
 print (data)
-
 
