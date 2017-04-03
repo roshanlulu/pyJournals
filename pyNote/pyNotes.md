@@ -170,3 +170,16 @@ running form command line python filename.py
 
 # Session 4 - Flex time 
 
+## Day5
+- 2.4.1
+
+- Pandas and Sql - read_sql_
+- Sqlite3 connection and creating databases(.tosql)
+- Using SQL basic queries and JOIN
+Side note: normalized vs. denormalized databases
+
+#### Week 3
+## Day 1
+
+# Session 1,2
+- Different data formats - wide and long
