@@ -83,3 +83,7 @@ messy_wide_flat.dropna(inplace = True)
 print('Unique Subject IDs\n', len(messy_wide_flat.subject_id.unique()))
 # print_header(messy_wide_flat)
 
+# 4. Melt Data
+
+nerdy_subset = messy_wide_flat[['subject_id','major','anxious','bookish','calm']]
+print_header(nerdy_subset)
