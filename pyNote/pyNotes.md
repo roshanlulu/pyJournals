@@ -183,3 +183,39 @@ Side note: normalized vs. denormalized databases
 
 # Session 1,2
 - Different data formats - wide and long
+
+# Session 3
+- Pecha Kucha format for Week 4 presentation pitch
+- Finish Project2 in Jupyter notebooks
+`http://res.cloudinary.com/general-assembly-profiles/image/upload/v1488557838/nd1h7mqjybjyucs5k4xe.pdf`
+- Problem Statement
+- Question tba
+- Goal
+- 
+- Basic EDAs are very important
+- Check steps from above eample also put it up in blog
+
+## Day3
+# Session 1
+- The 2.3.1 is an example of EDa and can be used as a reference for future dataset EDAs
+- When comparing plots, it might be required to standardize the values so that different values are comparable
+
+# Outomes Session
+- Online Presence + Recruiters
+- Include links to portfolio, email in signature
+- No negative tweets or posts
+- Twitter only if sharing relevant industry posts
+- Start off with linkedin profile
+- Summary --> link old experience with your new field
+- Add GA to experience(cap stone project) and your education(12 week course)
+- Ask for references and referees
+- Clean up skills and endorsements, hide older skills that may nt be useful for now
+- Thursday capstone ideas
+
+
+## Day 4
+# Session 1
+- Watch Luis Serano - Introduction to Machine learning
+- Hypothesis testing using Frequentist methods: a drug efficacy experiment
+
+
