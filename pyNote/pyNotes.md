@@ -218,4 +218,7 @@ Side note: normalized vs. denormalized databases
 - Watch Luis Serano - Introduction to Machine learning
 - Hypothesis testing using Frequentist methods: a drug efficacy experiment
 
+# Session 2 - Bootstrapping
+- Bootstrapping = resample + replace 
+
 
