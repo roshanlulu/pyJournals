@@ -65,6 +65,42 @@ print('Distinct count of age:\n', data.age.value_counts())
 drinks_csv = 'https://raw.githubusercontent.com/josephnelson93/GA-DSI/master/example-lessons/plotting-with-pandas/drinks.csv'
 user_file = 'https://raw.githubusercontent.com/justmarkham/DAT8/master/data/u.user_original'
 
+# drinks_csv
+data = pd.read_table(drinks_csv, sep=',')
+print(data.head())
+print(data.tail())
+print(data.index)
+print(data.columns)
+print(data.dtypes)
+print(data.shape)
+print(data.beer_servings.describe())
+print(data.beer_servings.median())
+print(data.continent.value_counts())
+
+# user_file
+data = pd.read_table(user_file, sep='|')
+user_column = ['user_id', 'age', 'gender', 'occupation', 'zip_code']
+data.columns = user_column
+print(data.head())
+print(data.shape)
+print(data.occupation.value_counts()[0:3])
+
+
+# Filtering and sorting dataframes and series
+# Boolean filtering
+mask = data.age < 20
+print(data[mask].occupation.value_counts())
+mask = (data.age < 20) & (data.gender == 'M')
+mask = (data.age < 10) | (data.age > 70)
+print(data[mask])
+
+# Sorting
+# Sort and return the age column
+print(data.age.sort_values())
+# Sort the whole dataframe based on age column ascending
+print(data.sort_values('age'))
+# Sort the whole dataframe based on age column descending
+print(data.sort_values('age', ascending=False))
 
 
 ###########################################################################
