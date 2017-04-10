@@ -195,7 +195,7 @@ Side note: normalized vs. denormalized databases
 - Basic EDAs are very important
 - Check steps from above eample also put it up in blog
 
-## Day3
+## Day 2
 # Session 1
 - The 2.3.1 is an example of EDa and can be used as a reference for future dataset EDAs
 - When comparing plots, it might be required to standardize the values so that different values are comparable
@@ -213,7 +213,7 @@ Side note: normalized vs. denormalized databases
 - Thursday capstone ideas
 
 
-## Day 4
+## Day 3
 # Session 1
 - Watch Luis Serano - Introduction to Machine learning
 - Hypothesis testing using Frequentist methods: a drug efficacy experiment
@@ -221,4 +221,26 @@ Side note: normalized vs. denormalized databases
 # Session 2 - Bootstrapping
 - Bootstrapping = resample + replace 
 
+## Day 4
+# Session 1
+- help(command in python)
+- usage of import re for regular expressions
+- usage of import sys to print output into a file
+- press shift+tab to get all the arguments in a function
+- FINISH this and try to publish in the blog.
+- check out plt.legend
 
+# Session 2
+- Chi squared tests
+
+
+- Kaggel datasets
+
+#### Week 4
+
+## Session1 
+- Simple linear regression explanation by tui.
+- The quanitification and interpretation of the the correlation value is : 
+    - 0.8 < Strong correlation < 1
+    - 0.5 < moderate < 0.8
+    - 0 < weak < 0.5

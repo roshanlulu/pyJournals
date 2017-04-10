@@ -104,6 +104,50 @@ print(data.sort_values('age', ascending=False))
 
 
 ###########################################################################
+# Exercise 2
+data = pd.read_table(drinks_csv, sep=',')
+print(data.continent.unique())
+mask = (data.continent == 'EU')
+mask = mask & (data.wine_servings > 300)
+print(data[mask])
+print(data.sort_values('total_litres_of_pure_alcohol')[0:10])
+
+# Using the users dataframe
+data = pd.read_table(user_file, sep='|')
+user_column = ['user_id', 'age', 'gender', 'occupation', 'zip_code']
+data.columns = user_column
+
+data.sort_values(['occupation', 'age'])
+print(data.head(10))
+mask = data.occupation.isin(['doctor', 'lawyer'])
+print(data[mask])
+
+# Renaming, adding, and removing columns
+data = pd.read_table(drinks_csv, sep=',')
+data_renamed = data.rename(columns = {'beer_servings':'beer', 'wine_servings':'wine'})
+print(data_renamed.columns)
+data.rename(columns = {'beer_servings':'beer', 'wine_servings':'wine'}, inplace = True)
+print(data.columns)
+drinks_col = ['country', 'beer', 'spirit', 'wine', 'liters', 'continent']
+data.columns = drinks_col
+print(data.columns)
+
+# Adding columns
+data['servings'] = data.beer + data.wine + data.spirit
+data['mL'] = data.liters * 1000
+print(data.head())
+
+# Removing columns
+data_dropped = data.drop(['mL'], axis = 1)
+print(data_dropped.head())
+data.drop(['mL', 'servings'], axis = 1, inplace = True)
+print(data.head())
+
+# Handling missing values
+
+
+
+
 
 ###########################################################################
 
