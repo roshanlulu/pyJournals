@@ -238,9 +238,50 @@ Side note: normalized vs. denormalized databases
 
 #### Week 4
 
-## Session1 
+##Day 1
+# Session1
 - Simple linear regression explanation by tui.
 - The quanitification and interpretation of the the correlation value is : 
     - 0.8 < Strong correlation < 1
     - 0.5 < moderate < 0.8
     - 0 < weak < 0.5
+
+## Day2
+#Session 1
+- Sklearn - linearmodel, preprocessing
+- Scikit is better than stats model for predictions. Stats model is more statistically inclined and is better to fit the data/describe your data
+
+## Day3
+# Session 1
+- Cross validation(divide your data into training and testing datasets). This is a holdout method and is fast.It is also a type of bootstrapping cross validation
+- K fold cross validation is when the dataset is divided into large no of subsets. 1 is selected as trainign set and the others are test set. This is done with all possible combinations. This results in less variance in your model.
+
+# Session2 - ianhansel@gmail.com
+- CRISP - DM
+- ABS Census Data
+- Geo Spatial Data - Python, R and Postgres have their own libraries, leaflet(JS library to display maps)
+- Check the different models required to fit ur data
+- train-test and crossvalidate in existing data
+- DPID
+- Identify problem, get the data, identify model, crossvalidate
+
+# Session 3
+- `conda install Graphviz`
+
+
+#### Week 5
+## Day 2
+# Session 1
+- Linear and polynomial regression
+- Degree of polynomial increases the no of bends increases
+- Depending on how fit your data is , the bends change
+
+# Session2 
+- Lasso and ridge are ways to improve your regression models
+- This is a good skill to be added 
+
+## Day3 
+# Session 1 - Refresh modeliing workflow
+# Session 2 - K NN: Classification
+- Classification and clustering are different
+
