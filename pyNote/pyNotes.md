@@ -285,3 +285,6 @@ Side note: normalized vs. denormalized databases
 # Session 2 - K NN: Classification
 - Classification and clustering are different
 
+## Day 4
+# Session 1 - Logistic regression
+- 
