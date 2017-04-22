@@ -288,3 +288,8 @@ Side note: normalized vs. denormalized databases
 ## Day 4
 # Session 1 - Logistic regression
 - 
+
+#### Day 5
+# Session 1 - Confusion Matrix
+# Session 2 - Data visualization tips from Ron 
+# Session 3 - Back to ROC curves and confusion 
